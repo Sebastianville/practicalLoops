@@ -43,7 +43,7 @@ let cell4 = ''
 let curCell = 1;
 
 //Looping through csv
-for (let i = 0; i < csv.length; i++){
+for (let i = 0; i <= csv.length; i++){
     let curCharacter = csv[i]
     // console.log(curCharacter)
     if(curCharacter === ","){
